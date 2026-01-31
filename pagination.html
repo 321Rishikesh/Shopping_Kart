@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products — Pagination</title>
+  <link rel="stylesheet" href="./pagination.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <h1 class="title">Product List</h1>
+    </div>
+  </header>
+
+  <main class="container">
+   
+    <div id="product-list" class="product-grid">
+      
+    </div>
+
+    
+    <nav class="pagination" aria-label="Pagination">
+      <button id="pagination-prev" class="page-btn" aria-label="Previous page">‹ Prev</button>
+      <div id="pagination-indicator" class="page-indicator">Page 1 of 1</div>
+      <button id="pagination-next" class="page-btn" aria-label="Next page">Next ›</button>
+    </nav>
+
+    
+    <div id="pagination-pages" class="pagination-pages" aria-hidden="false" style="display:flex;justify-content:center;margin-top:12px;gap:6px;">
+     
+    </div>
+  </main>
+
+  <script src="./pagination.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <h2 class="heading">Product Details</h2>
+      <a href="index.html" class="btn" style="position:absolute; left:12px;">Back</a>
+    </div>
+  </header>
+
+  <main style="max-width:900px;margin:18px auto;padding:12px;">
+    <section id="product-card" class="product-details">
+      <img id="product-image" src="" alt="product image" class="product-detail-img">
+      <div class="product-detail-info">
+        <h1 id="product-title">Loading...</h1>
+        <p id="product-price"></p>
+        <p id="product-description"></p>
+
+        <ul id="product-details-list"></ul>
+
+        <div style="margin-top:12px;">
+          <button id="add-to-cart-detail" class="btn">Add to cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="product.js"></script>
+</body>
+</html>
